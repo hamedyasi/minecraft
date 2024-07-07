@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(3, 24, 11);
+}
+.logo {
+  height: 120px;
+  width: 250px;
+  margin-left: 30px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.h1 {
+  color: rgb(240, 243, 234);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-display: initial;
+  padding-top: 80px;
+  font-size: 3rem;
+}
+
+.pic-tile {
+  height: 200px;
+  border-radius: 20px;
+  display: inline;
+  float: left;
+  margin: 20px;
+}
+
+.pic1 {
+  float: left;
+  width: 45%;
+  margin-left: 15px;
+}
+.pic2 {
+  float: right;
+  width: 45%;
+  margin-right: 25px;
+}
+
+.mine {
+  padding-top: 70px;
+  color: white;
+}
+
+.font {
+  margin-left: 5px;
+  color: rgb(165, 52, 52);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+
+p {
+  color: rgb(237, 248, 139);
+}
+.villager {
+  float: left;
+  margin-left: 15px;
+  display: block;
+  margin-left: 15px;
+  width: 45%;
+}
+footer {
+  color: rgb(206, 98, 248);
+  float: both;
+  padding-top: 500px;
+  text-align: right;
+  font-size: 20px;
+}
+.golem {
+  float: right;
+  margin-right: 25px;
+  display: block;
+  margin-left: 15px;
+  width: 45%;
+  color: rgb(165, 52, 52);
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  P {
+    margin-left: 10px;
+  }
+
+  .pics {
+    width: 100%;
+    display: block;
+    margin: 0;
+    text-align: justify;
+  }
+  .pic-tile {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: contain;
+    margin: 0;
+  }
+}
